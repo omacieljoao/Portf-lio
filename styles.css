@@ -115,17 +115,6 @@ a:hover {
   object-fit: contain;
 }
 
-/* 🔴 ÚLTIMO CARD — sem scroll */
-.projetos-grid .projeto-card:last-child .preview {
-  overflow: hidden; /* remove scroll */
-}
-
-.projetos-grid .projeto-card:last-child .preview img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
 /* Descrição */
 .projeto-card .descricao {
   padding: 15px;
