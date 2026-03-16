@@ -163,6 +163,17 @@ a:hover {
   gap: 15px;
 }
 
+/* 🔴 ÚLTIMO CARD — sem scroll */
+.projetos-grid .projeto-card:last-child .preview {
+  overflow: hidden; /* <--- ISSO AQUI ESTÁ MATANDO O SCROLL */
+}
+
+.projetos-grid .projeto-card:last-child .preview img {
+  height: 100%; /* <--- ISSO ESTÁ FORÇANDO A IMAGEM A CABER NO CARD */
+  width: 100%;
+  object-fit: cover; /* <--- ISSO CORTA A IMAGEM EM VEZ DE DEIXAR ELA LONGA */
+}
+
 #contato input,
 #contato textarea {
   padding: 12px;
